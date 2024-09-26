@@ -52,7 +52,7 @@ public class UserService {
             var user = userEntity.get();
 
             if (updateUserDto.username() != null) {
-                user.setUsername(updateUserDto.username());
+                 user.setUsername(updateUserDto.username());
             }
 
             if(updateUserDto.password() != null) {
